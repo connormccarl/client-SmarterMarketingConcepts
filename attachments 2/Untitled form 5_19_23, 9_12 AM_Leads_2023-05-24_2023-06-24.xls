@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                      <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:x="urn:schemas-microsoft-com:office:excel"
+                       xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:html="http://www.w3.org/TR/REC-html40">
+                      <Styles>
+                        <Style ss:ID="s17">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s18">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s19">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s20">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s21">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s22">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s23">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s24">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s25">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s26">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s27">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s28">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s29">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s30">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s31">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s32">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s33">
+                         <NumberFormat ss:Format="YYYY-mm-dd"/>
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                        </Style>
+                        <Style ss:ID="s34">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s35">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s36">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                      </Styles>
+<Worksheet ss:Name="Sheet1">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="14" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="16" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s24"><Data ss:Type="String">id</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">created_time</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">ad_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">ad_name</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">adset_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">adset_name</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">campaign_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">campaign_name</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">form_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">form_name</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">is_organic</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">platform</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">company_name</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">full_name</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">email</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">phone_number</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">748996573634635</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-06-13T04:23:25.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421240562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421270562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads Copy - 1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421230562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lydia Garcia Cosmetologa Profecional</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Olga Lydia Cantu Garza</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">lydiagarcia2134@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+12818680875</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1328329721365287</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-06-12T19:08:44.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421240562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421270562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads Copy - 1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421230562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ig</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Veles Garage door service</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Dima Vasilevski</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Velesgaragedoor@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+18326066633</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">289447316871912</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-06-12T06:21:50.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421240562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421270562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads Copy - 1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23855258421230562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Pontiac Schools</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Kimbely K. Rosario</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">kywi1@aol.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+12489734614</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">778838960617162</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-31T15:28:09.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805912720562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805912710562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads Copy - 2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019010562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">none</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">rOSEMARIE lUEDTKE</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">rosemarie.luedtke@yahoo.xom</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+12158966919</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">211116541769326</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-30T18:27:54.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019000562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019020562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads Copy - 1</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019010562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Fleet Diner</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Betty Sweeden here</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">bill.sims@growlearningcentre3.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+14798808221</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">802151494433909</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-30T18:02:02.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805979780562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805979790562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads sets - 3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019010562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Jeunesse Global</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Marzia Mahgabin</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">marziamahgabin@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+16093008473</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">3459607684327640</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-30T17:07:51.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805979780562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805979790562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads sets - 3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019010562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Disability SSI</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Donna Rosales</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">donnarosales162@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+16265364155</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1934849696892125</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-30T15:47:21.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805979780562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805979790562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads sets - 3</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019010562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Stamford</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Medardo Criollo</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">medardocriollo953@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+12034405603</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">619035383507211</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-30T12:08:54.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805912720562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805912710562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Ads Copy - 2</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854805019010562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Rajib</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Oxner. Farm’s go Ft. VT BBT</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">William Earl Oxner</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">weoxner@hotmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+18702109916</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">619404350122894</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-24T14:09:45.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508360562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508350562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmarterAds - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508370562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Yes</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Thomas Stevenson</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">thomas022198@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+15165103905</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">693752905843451</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-24T13:25:10.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508360562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508350562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmarterAds - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508370562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Houston ISD</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Elray McKinney</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">annerlg@aol.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+18322032853</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">178269498212005</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2023-05-24T12:38:35.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508360562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New Leads ad</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508350562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmarterAds - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">23854802508370562</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">SmartAds – GEO - Copy</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1808882672839085</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Untitled form 5/19/23, 9:12 AM</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Vitality Christian Ministries!</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Paul Pollard</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">revpeppy@hotmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+14253460890</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
